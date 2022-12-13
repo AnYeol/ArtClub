@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="arts.css">
+	<title>Art Shop</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+</style>
+	
+</head>
+<body>
+  <header>
+	<div class="part1">
+		
+			<div class ="headerforexh">
+   				<h1 class="part1p">GALLERY</h1>
+   			</div>
+
+
+   			<div >
+				<img src="butterfly.png" alt="butterfly" class="butterflyimg">
+			</div>
+	</div>
+  </header>
+  	<main>
+  		<div id="home" class="part2">
+  			<div class="menu">
+ 			 	<a href="#home" id="home1">Home</a>
+  				<a href="#exhibition1" id="exhibition">Exhibition</a>
+  				<a href="#gallery1" id="gallery">Gallery</a>
+  				<a href="#join" id="about">Join us</a>
+ 				 <a href="#contacts1" id="contacts">Contacts</a>
+			</div>
+			
+			   <div class="homeimg">
+			   		<img src="94e66f_a6b78b9c7e534ee29696f1bfa313c7cc~mv2_d_2376_2359_s_2.jpg" alt="" >
+			   		<div class="textsformain">
+			   			 	<h2>Art Club</h2>
+				<p>Creative community</p>
+				<h5>founded in 2009<br></h5>
+
+			   		</div>
+
+				 	<img src="2e2a49_32d8740cfab54f9db53ad471197d53af~mv2_d_1955_2478_s_2.jpg" alt="">
+				 </div>
+             
+
+             </div>
