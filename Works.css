@@ -315,3 +315,74 @@ h1{
 .hovertext{
  display: none;
 }
+.conexh .card:hover .content: {
+	transform: translateY(-35px);
+	height: 100%;
+	
+
+}
+
+.conexh .card:hover .hovertext{
+	display: block;
+	
+	
+}
+.allimg{
+	position: relative;
+	margin-top: 15px;
+	display: flex;
+	
+	
+	
+}
+.selimg1{
+	width: 100%;
+	position: relative;
+
+}
+.selimg1 img {
+	left:3%;
+	padding-top: 15px;
+	width: 96%;
+	height: 32%;
+	filter: grayscale(100%); 
+	
+}
+
+
+.selimg1 img:hover{
+
+	filter: grayscale(0%); 
+}
+
+
+.selimg2{
+
+	width: 100%;
+	
+}
+.selimg2 img{
+
+	padding-top: 15px;
+	width: 96%;
+	height: 32%;
+	filter: grayscale(100%); 
+}
+.selimg2 img:hover{
+	
+	filter: grayscale(0%); 
+}
+
+.headerforgal{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	}
+	#join{
+		top: 1%;
+		background-color: #772f1a;
+		padding: 100px 50px;
+
+		width: 50%;
+		
+	}
