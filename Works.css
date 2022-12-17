@@ -486,3 +486,116 @@ h1{
 				font-size: 14px;
 				text-align: center;
 			}
+@media all and (max-width:1378px){
+
+	.textsformain h2{
+		font-size: 26px;
+		}
+		.textsformain p{
+			font-size:32px;
+		}
+		.textsformain p{
+			font-size:32px;
+		}
+		.textsformain h5{
+			font-size: 18px;
+		}
+		.textsformain button{
+	display: none;
+}
+@media all and (max-width:1167px){
+	h1{
+		padding-left: 370px;
+	}
+	.card{
+		margin-left: 5px;
+	}
+
+}
+@media all and (max-width:1215px){
+	.card{
+		margin-left: 18px;
+	}
+
+}
+		@media all and (max-width:1148px){
+			.textsformain h2{
+		font-size: 18px;
+		}
+		.textsformain p{
+			font-size:24px;
+		}
+		.textsformain h5{
+			font-size: 14px;
+
+		}
+        .textsformain2 h2{
+	font-size: 28px;
+ }
+ .textsformain2 p{
+ 	font-size: 51px;
+ 	padding-top: 15px;
+ }
+ .textsformain2 h5{
+ 	font-size: 24px;
+ }
+ h1{
+ 	padding-left: 340px;
+ }
+  .joinimg img{
+  	display: none;
+  }
+  #join{
+  	width: 100%;
+  	padding: 50px 50px;
+  }
+
+
+
+@media all and (max-width:1113px){
+	.textsformain h2{
+		display: none;
+		}
+		.textsformain p{
+			padding-top: 200px;
+			font-size: 18px;
+		}
+		.textsformain h5{
+			display: none;
+
+		}
+        .textsformain2 h2{
+	display: none;
+ }
+ .textsformain2 p{
+ 	padding-left: 80px;
+ 	font-size: 32px;
+ 	padding-top: 180px;
+ }
+ .textsformain2 h5{
+ 	display: none;
+ }
+ .textsformain2 button{
+ 	display: none;
+ }
+  h1{
+  	padding-left: 280px;
+  }
+
+
+}
+@media all and (max-width:997px){
+	h1{
+		padding-left: 20px;
+	}
+}
+ @media all and (max-width:936px){
+ 	.textsformain p{
+ 		display: none;
+
+ 	}
+ 	.card{
+		margin-left: 20px;
+	}
+
+ }
