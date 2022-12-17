@@ -599,3 +599,75 @@ h1{
 	}
 
  }
+@media all and (max-width:871px){
+ 	.textsformain2 p{
+ 		display: none;
+ 	}
+ 	.card{
+		margin-left: 8px;
+	}
+	 #join{
+  	width: 100%;
+  	padding: 30px 30px;
+  }
+   @media all and (max-width:866px){
+   	.joinus h6{
+   		display: none;
+		
+
+		}
+			.joinus a{
+				display: none;
+			}
+ }
+  @media all and (max-width:821px){
+  	 #join{
+  	width: 100%;
+  	padding-top: 20px;
+  	background-color: #f4f3ee;
+
+  }
+  .textforjoin p{
+		color: black;
+         
+         }
+
+    #addEmail{
+    	background-color: #772f1a;
+    	color: #f4f3ee;
+
+    }
+
+
+
+  }
+ @media all and (max-width:731px){
+ 	h1{
+ 		font-size: 22px;
+ 		padding-top: 15px;
+ 	}
+ 	.fh1{
+				font-size: 16px;
+				padding-left: 25px;
+				
+			}
+			.fp1{
+				font-size: 12px;
+				text-align: center;
+			}
+
+
+ 
+ }
+  @media all and (max-width:666px){
+  	#foot1{
+  		display: none;
+  	}
+  	#foot2{
+  		display: none;
+  	}
+  	#join{
+  	display: none;
+
+  }
+}
