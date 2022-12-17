@@ -315,3 +315,287 @@ h1{
 .hovertext{
  display: none;
 }
+.conexh .card:hover .content: {
+	transform: translateY(-35px);
+	height: 100%;
+	
+
+}
+
+.conexh .card:hover .hovertext{
+	display: block;
+	
+	
+}
+.allimg{
+	position: relative;
+	margin-top: 15px;
+	display: flex;
+	
+	
+	
+}
+.selimg1{
+	width: 100%;
+	position: relative;
+
+}
+.selimg1 img {
+	left:3%;
+	padding-top: 15px;
+	width: 96%;
+	height: 32%;
+	filter: grayscale(100%); 
+	
+}
+
+
+.selimg1 img:hover{
+
+	filter: grayscale(0%); 
+}
+
+
+.selimg2{
+
+	width: 100%;
+	
+}
+.selimg2 img{
+
+	padding-top: 15px;
+	width: 96%;
+	height: 32%;
+	filter: grayscale(100%); 
+}
+.selimg2 img:hover{
+	
+	filter: grayscale(0%); 
+}
+
+.headerforgal{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	}
+	#join{
+		top: 1%;
+		background-color: #772f1a;
+		padding: 100px 50px;
+
+		width: 50%;
+		
+	}
+.joinus{
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+
+
+ }
+	.joinus h6{
+		top:0;
+		margin: 0 0 70px 0;
+		font-size: 22px;
+		font-weight: 500;
+		text-align: center;
+
+		
+
+	}
+	.textforjoin p{
+		font-size: 18px;
+		font-weight: 500;
+		text-align: center;
+         
+
+	
+	}
+	#inputEmail{
+
+		padding: 9px 50px;
+		color: black;
+
+	}
+	#addEmail{
+		padding: 9px 10px;
+		background-color: #f4f3ee;
+		color: black;
+
+	}
+	.joinus a{
+		text-decoration: none;
+		margin-top: 20px;
+		color: #f4f3ee;
+	}
+	.joinimg img{
+		width: 500px;
+		height: 574px;
+		
+	}
+	.tipofooter{
+    display: flex;
+
+
+	}
+	#sjoin{
+		visibility: hidden;
+
+  width: 250px;
+ margin-left: -125px;
+  background: rgba(255,255,255,0.5); 
+  color: #772f1a;
+  text-align: center;
+  border-radius: 60px;
+  padding: 16px;
+  position: fixed;
+  z-index: 11;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#sjoin.show {
+  visibility: visible;
+
+}
+	footer{
+		padding: 23px 120px;
+
+
+	}
+	#contacts1{
+		padding: 10px 20px;
+		background-color: #772f1a;
+		color: #f4f3ee;
+
+	}
+	.footerblock{
+		display: flex;
+		justify-content: space-around;
+
+			}
+			.fh1{
+				font-size: 18px;
+				padding-left: 32px;
+				
+			}
+			.fp1{
+				font-size: 14px;
+				text-align: center;
+			}
+@media all and (max-width:1378px){
+
+	.textsformain h2{
+		font-size: 26px;
+		}
+		.textsformain p{
+			font-size:32px;
+		}
+		.textsformain p{
+			font-size:32px;
+		}
+		.textsformain h5{
+			font-size: 18px;
+		}
+		.textsformain button{
+	display: none;
+}
+@media all and (max-width:1167px){
+	h1{
+		padding-left: 370px;
+	}
+	.card{
+		margin-left: 5px;
+	}
+
+}
+@media all and (max-width:1215px){
+	.card{
+		margin-left: 18px;
+	}
+
+}
+		@media all and (max-width:1148px){
+			.textsformain h2{
+		font-size: 18px;
+		}
+		.textsformain p{
+			font-size:24px;
+		}
+		.textsformain h5{
+			font-size: 14px;
+
+		}
+        .textsformain2 h2{
+	font-size: 28px;
+ }
+ .textsformain2 p{
+ 	font-size: 51px;
+ 	padding-top: 15px;
+ }
+ .textsformain2 h5{
+ 	font-size: 24px;
+ }
+ h1{
+ 	padding-left: 340px;
+ }
+  .joinimg img{
+  	display: none;
+  }
+  #join{
+  	width: 100%;
+  	padding: 50px 50px;
+  }
+
+
+
+@media all and (max-width:1113px){
+	.textsformain h2{
+		display: none;
+		}
+		.textsformain p{
+			padding-top: 200px;
+			font-size: 18px;
+		}
+		.textsformain h5{
+			display: none;
+
+		}
+        .textsformain2 h2{
+	display: none;
+ }
+ .textsformain2 p{
+ 	padding-left: 80px;
+ 	font-size: 32px;
+ 	padding-top: 180px;
+ }
+ .textsformain2 h5{
+ 	display: none;
+ }
+ .textsformain2 button{
+ 	display: none;
+ }
+  h1{
+  	padding-left: 280px;
+  }
+
+
+}
+@media all and (max-width:997px){
+	h1{
+		padding-left: 20px;
+	}
+}
+ @media all and (max-width:936px){
+ 	.textsformain p{
+ 		display: none;
+
+ 	}
+ 	.card{
+		margin-left: 20px;
+	}
+
+ }
