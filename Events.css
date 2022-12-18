@@ -112,3 +112,133 @@ color: #8e7746;
     font-size: 1rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.container{
+    margin-top: 100px;
+}
+
+.puzzle{
+    border-radius: 5%;
+    margin-top: 100px;
+    margin-left: 200px;
+    height:400px;
+    width: 400px;
+}
+
+.tenminuteshow-container{
+    position: absolute;
+    left: 700px;
+    margin-top: -10px;
+}
+
+.tenminuteshow{
+    font-family: 'Anton', sans-serif;
+    line-height: 1;
+    letter-spacing: -.07em;
+    color: #fff;
+}
+
+.pc{
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    line-height: 1;
+    margin-top: -11px;
+    -webkit-transition: all .3s ease-in-out;
+            transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 3s;
+    -webkit-transform: translateX(-1000%);
+        -ms-transform: translateX(-1000%);
+            transform: translateX(-1000%);
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #fc0;
+}
+
+.animate .pc{
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+}
+
+span{
+    font-family: 'Anton', Helvetica, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    opacity: 0;
+    color: rgb(0, 0, 0);
+    filter: alpha(opacity=0);
+}
+
+.show{
+    -webkit-transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 2.3s;
+            transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 2.3s;
+    letter-spacing: -.07em;
+}
+
+.minute{
+    -webkit-transition: all .3s ease-in-out 2s;
+            transition: all .3s ease-in-out 2s;
+    letter-spacing: -.07em;
+}
+
+.ten{
+    -webkit-transition: all .3s ease-in-out 1.7s;
+            transition: all .3s ease-in-out 1.7s;
+    letter-spacing: -.07em;
+}
+
+.animate .ten{
+    font-size: 40px;
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.animate .minute{
+    font-size: 60px;
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.animate .show{
+    font-size: 80px;
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.puzclub{
+    margin-left: 700px;
+    margin-top: -370px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.relax{
+    border-radius: 5%;
+    margin-top: 400px;
+    margin-left: 800px;
+    height:400px;
+    width: 400px; 
+}
+
+.relax-text {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:brown;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-left: 200px;
+    margin-top: -450px;
+  }
+
+.text-relax{
+
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 200px;
+}
+  
