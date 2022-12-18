@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+
+}
+body{
+  background-image: url(https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000);
+}
+
+.slider1 {
+  margin-top: 7%;
+  padding: 5% ;
+}
+
+.slider1 .slide {
+  width: 25%;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.slider1 .mySlides {
+  display: none;
+  scale: .9;
+}
+
+.slider1 .mySlides img {
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+.dots {
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #c7c7c7;
+  border: 2px solid #c7c7c7;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+h2{
+  margin-top: 5%;
+  font-size: 18px;
+  margin-left: 5%;
+}
+
+.second{
+  margin-bottom: -2%;
+  margin-left: 10%;
+}
+
+.active {
+  background-color: #ffffff;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+img{
+  border-radius: 10px;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.Slides {
+  display: none;
+  scale: .8;
+  border-radius: 5px;
+}
+
+.Slides img{
+  border-radius: 5px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev{
+  left: 10%;
+}
+
+.next {
+  right: 10%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
