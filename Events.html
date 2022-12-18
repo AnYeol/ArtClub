@@ -145,23 +145,53 @@
     </div>
     <div class="div-2">
         <video class="video" loop autoplay muted poster src="/images/art.mp4" type="video/mp4"> </video>
-        
+        <h2 class="vid-text">Well,<br>
+            <br>have you seen our art for the<br>
+            <br>Sdulife office?🤩💙</h2>
     </div>
-    
 
+    <div class="row">
+        <div class="column">
+          <img class="ph" src="/images/art3.jpeg" alt="" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img class="ph" src="/images/art4.jpeg" alt="" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img class="ph" src="/images/art5.jpeg" alt="" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img class="ph" src="/images/arts2.jpeg" alt="" onclick="myFunction(this);">
+        </div>
+    </div>
+      
+    <div class="containerr">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <img id="expandedImg" style="width:50%">
+        <div id="imgtext"></div>
+    </div>
+    <h1 class="info6">Contact us</h1>
+    <p class="info7">+7 (775) 726 21 32</p>
+    <p class="info7">Instagram: @artclub_sdu</p>
 
 
 
     <script>
         var hotbod = document.querySelector("body");
+        function doStuff() {
+            hotbod.className += " animate";
+        }
+        window.onload = function() {
+            doStuff();
+        };
 
-function doStuff() {
-    hotbod.className += " animate";
-}
-
-window.onload = function() {
-    doStuff();
-};
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            var imgText = document.getElementById("imgtext");
+            expandImg.src = imgs.src;
+            imgText.innerHTML = imgs.alt;
+            expandImg.parentElement.style.display = "block";
+        }
 
     </script>
 </body>
