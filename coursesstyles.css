@@ -84,6 +84,23 @@ html{
 .follow:hover{
   background-color:darksalmon;
 }
+
+.info6{
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+	color: #8e7746;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 100px;
+  }
+  .info7{
+	font-weight: 300;
+	line-height: 1.5;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'IskraCYR',Arial,sans-serif;
+  }
 @media (max-width: 1400px){
   .header{
     position: absolute;

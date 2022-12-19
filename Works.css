@@ -340,7 +340,23 @@ h1{
 	
 	filter: grayscale(0%); 
 }
-
+.info6{
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+	color: #8e7746;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 100px;
+	margin-right: 450px;
+  }
+  .info7{
+	font-weight: 300;
+	line-height: 1.5;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'IskraCYR',Arial,sans-serif;
+  }
 
 @media all and (max-width:1378px){
 
