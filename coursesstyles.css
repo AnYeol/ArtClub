@@ -82,14 +82,10 @@ html{
 .follow:hover{
   background-color:darksalmon;
 }
-.for_image{
-}
-@media (max-width: 400px){
-  .banner{
-    width: 100%;
-  }
+@media (max-width: 1400px){
   .header{
-    font-size: 1rem;
-    color: black;
+    position: absolute;
+    top: 35px;
+    font-size: 4rem;
   }
 }
