@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="Input.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <body>
+   
+    <div class="center">
+      <div class="block-2">
+        <h2 class="text">Log In to Access the Information About The ArtClub.</h2>
+        <img src="/images/logo.jpg" class="logo">
+      </div>
+      <div class="container">
+        <div class="block">
+          <section class="block_item block-item">
+            <h2 class="block-item_title">Do you already have an account?</h2>
+            <button class="block-item_btn signin-btn" onclick="cl()">
+              Sign In
+            </button>
+          </section>
+          <section class="block_item block-item">
+            <h2 class="block-item_title">Don't Have An Account?</h2>
+            <button class="block-item_btn signup-btn">
+              Sign Up
+            </button>
+          </section>
+        </div>
+
+        <div class="form-box">
+          <p class="vhod">Signed In</p>
+          <form action="#" class="form form_signin" id="f22">
+            <h3 style="font-size: 30px; font-weight: 500; color: #333">Login</h3>
+            <p>
+              <input
+                type="text"
+                class="form_input"
+                id="em"
+                placeholder="Email"
+              />
+            </p>
+            <p>
+              <input
+                type="password"
+                class="form_input"
+                id="par"
+                placeholder="Пароль"
+              />
+            </p>
+            <p>
+              <button class="form_btn" onclick="opend(em.value, par.value)">
+                Sign In
+              </button>
+            </p>
+          </form>
+
+          <p class="zareg">Registration was successful</p>
+
+          <form action="#" class="form form_signup" id="f11">
+            <h3 style="font-size: 30px; font-weight: 500; color: #333">
+              Registration
+            </h3>
+            <p>
+              <input
+                type="text"
+                class="form_input"
+                id="a2"
+                placeholder="Name"
+              />
+            </p>
+            <p>
+              <input
+                type="email"
+                class="form_input"
+                id="a1"
+                placeholder="Email"
+              />
+            </p>
+
+            <p>
+              <input
+                type="number"
+                class="form_input"
+                id="123"
+                placeholder="Age"
+              />
+            </p>
+
+            <p>
+              <input
+                type="password"
+                class="form_input"
+                id="f1"
+                placeholder="Password"
+              />
+            </p>
+            <p>
+              <input
+                type="password"
+                class="form_input"
+                id="f2"
+                placeholder="Confirm the password"
+              />
+            </p>
+            <p>
+              <button
+                class="form_btn"
+                onclick="check(a1.value, f1.value, f2.value)"
+              >
+                Sign up
+              </button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="Input.js"></script>
+  </body>
+</html>
