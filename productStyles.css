@@ -19,12 +19,12 @@
     bottom: 10px;
     font-size: 5rem;
     color: white;
+    left: 20px;
 }
 .product{
     width: 400px;
     height: 600px;
     text-align: center;
-    border-color: black;
     display: inline-block;
     margin-right: 50px;
     margin-left: 50px;
@@ -39,4 +39,47 @@
 }
 .desc2{
     font-size: 1.2rem;
+}
+.subheader{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+@media (max-width: 410px){
+    .banner_image{
+        object-fit: cover;
+        height: 620px;
+        width: 100%;
+    }
+    .banner{
+        height: 620px;
+        width: 390px;
+    }
+    .header{
+        font-size: 2.7rem;
+    }
+    .subheader{
+        font-size: 2rem;
+    }
+    .product{
+        width: 250px;
+        height: 400px;
+        text-align: center;
+        border-color: black;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right:auto;
+    }
+}
+@media (max-width: 850px){
+    .subheader{
+        font-size: 2.3rem;
+    }
+    .product{
+        display: block;
+        margin-right: auto;
+        margin-left:auto;
+    }
 }
