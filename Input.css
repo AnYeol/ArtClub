@@ -2,9 +2,6 @@ body {
   padding: 0;
   margin: 0;
   background-image: linear-gradient(rgb(168, 135, 56), rgb(243, 209, 129));
-  /*background-image: url(recources\phon3.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 
 .center {
@@ -21,24 +18,16 @@ body {
   padding: 40px 0;
   position: relative;
 }
-/*.block {
-  height: 100%;
-  border-radius: 25px;
-  background-color: #c9a66b;
-  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-}*/
 .block_item {
   text-align: center;
   width: 50%;
 }
-.block-item_title {
+/*.block-item_title {
   font-size: 18px;
   font-weight: 530;
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
-}
+}*/
 .block-item_btn {
   border: none;
   cursor: pointer;
@@ -69,10 +58,10 @@ body {
 .form-box.active .form_signin {
   left: -100%;
 }
-.form-box.active .form_signup {
+/*.form-box.active .form_signup {
   left: 0;
 }
-
+*/
 .form-box.active {
   left: 50%;
 }
@@ -89,9 +78,9 @@ body {
 .form_signin {
   left: 0;
 }
-.form_signup {
+/*.form_signup {
   left: 100%;
-}
+}*/
 
 .form_input {
   width: 60%;
@@ -108,15 +97,15 @@ body {
   border-radius: 4px;
   padding: 10px 50px;
 }
-.form_forgot {
+/*.form_forgot {
   color: #333;
   text-decoration: none;
-}
-.zareg {
+}*/
+/*.zareg {
   display: none;
   font-size: 28px;
   font-weight: 400;
-}
+}*/
 .vhod {
   display: none;
   font-size: 28px;
