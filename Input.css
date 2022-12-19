@@ -1,7 +1,10 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(195, 193, 193);
+  background-image: linear-gradient(rgb(168, 135, 56), rgb(243, 209, 129));
+  /*background-image: url(recources\phon3.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;*/
 }
 
 .center {
@@ -18,14 +21,14 @@ body {
   padding: 40px 0;
   position: relative;
 }
-.block {
+/*.block {
   height: 100%;
   border-radius: 25px;
   background-color: #c9a66b;
   box-shadow: 0 5px 45px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
-}
+}*/
 .block_item {
   text-align: center;
   width: 50%;
@@ -48,7 +51,7 @@ body {
 }
 
 .form-box {
-  background-color: #ebdcb2;
+  background-color: #f3e6c6;
   height: 100%;
   border-radius: 20px;
   width: 50%;
@@ -129,3 +132,4 @@ body {
   display: inline-block;
   border-radius: 150px;
 }
+
